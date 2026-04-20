@@ -1,0 +1,121 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.btn {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card span {
+    color: green;
+    font-weight: bold;
+}
+
+.about, .contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.whatsapp {
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}/* FEATURES */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background: #f5f5f5;
+}
+
+.feature-box {
+    text-align: center;
+    width: 30%;
+}
+
+/* FEATURED */
+.featured {
+    text-align: center;
+    padding: 30px;
+}
+
+/* CTA */
+.cta {
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.call-btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.why {
+    padding: 30px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.why ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why li {
+    font-size: 18px;
+    margin: 10px 0;
+}
