@@ -143,3 +143,13 @@ nav {
     top: 0;
     z-index: 1000;
 }
+.payment {
+    text-align: center;
+    padding: 40px;
+}
+
+.payment img {
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
